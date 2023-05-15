@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET</title>
+</head>
+<body>
+    
+    <div>
+        <ul id="mysqltojson">
+
+        </ul>
+    </div>
+
+    <!-- SELECT -->
+
+    <!--  for Order by
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+        <tbody>
+            <?php foreach ($list as $row): ?>
+            <tr>
+                <td><?php echo $row['ID']; ?></td>
+                <td><?php echo $row['name']; ?></td>
+                <td><?php echo $row['description']; ?></td>
+            </tr>
+            <?php endforeach; ?>    
+        </tbody>
+    </table> -->
+
+    <!-- for Checking the GET variable
+
+    <table>
+        <thead>
+            <tr>
+                <th><?php echo sort_link_th('ID', 'id_asc', 'id_desc'); ?></th>
+                <th><?php echo sort_link_th('name', 'name_asc', 'name_desc'); ?></th>
+                <th><?php echo sort_link_th('description', 'description_asc', 'description_desc'); ?></th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php foreach ($list as $row): ?>
+            <tr>
+                <td><?php echo $row['ID']; ?></td>
+                <td><?php echo $row['name']; ?></td>
+                <td><?php echo $row['description']; ?></td>
+            </tr>
+            <?php endforeach; ?>    
+        </tbody>
+    </table> -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
+<!-- I will use either hover css or check box table to highlight the object -->
